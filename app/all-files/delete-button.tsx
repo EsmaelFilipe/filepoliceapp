@@ -10,7 +10,7 @@ type Props = {
 export default function DeleteButton({ url }: Props) {
   const router = useRouter();
   return (
-    <button
+    <Button
       onClick={async () => {
         // HIT OUR API ENDPOINT TO DELETE OUR FILE
         await fetch(`/api/file`, {
@@ -22,7 +22,7 @@ export default function DeleteButton({ url }: Props) {
         router.refresh();
       }}
     >
-      <Button>DELETE</Button>
-    </button>
+      DELETE
+    </Button>
   );
 }
