@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { Button } from "@/components/ui/button";
 
 type Props = {
   url: string;
@@ -21,7 +22,7 @@ export default function DeleteButton({ url }: Props) {
         router.refresh();
       }}
     >
-      DELETE
+      <Button>DELETE</Button>
     </button>
   );
 }
