@@ -61,7 +61,7 @@ export default function AvatarUploadPage() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="mb-6 text-2xl font-semibold">File Management App</h1>
+      <h1 className="mb-6 text-6xl font-semibold">File Management App</h1>
       <Card className="w-[350px]">
         <CardHeader>
           <CardTitle>Upload Your File</CardTitle>
